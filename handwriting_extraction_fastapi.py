@@ -77,7 +77,7 @@ async def predict_(Image: UploadFile = File(...)):
     
     return [line for line in sentences]
 
-if __name__=="__handwriting_extraction_fastapi__":
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+# if __name__=="__handwriting_extraction_fastapi__":
+#     uvicorn.run(app, host='127.0.0.1', port=8000)
 
 
