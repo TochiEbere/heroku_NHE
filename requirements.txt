@@ -1,0 +1,6 @@
+uvicorn==0.12.3
+fastapi==0.61.2
+msrest==0.6.19
+azure-cognitiveservices-vision-computervision==0.7.0
+python-multipart==0.0.5
+azure-cognitiveservices-speech==1.14.0
