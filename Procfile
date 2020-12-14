@@ -1,1 +1,1 @@
-web: uvicorn handwriting_extraction_fastapi:app
+web: uvicorn.run(app, host='127.0.0.1', port=8000)
